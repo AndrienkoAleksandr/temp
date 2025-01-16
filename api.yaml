@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world
+  description: "Простий Hello World компонент для Backstage"
+  tags:
+    - example
+    - hello-world
+spec:
+  type: plugin
+  lifecycle: experimental
+  owner: default
+  providesApis: []
